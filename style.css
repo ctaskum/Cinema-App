@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(83, 81, 80);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.seat i{
+    font-size: 35px;
+    color:lightgray;
+    margin: 6px;
+}
+.seat>i:hover{
+    transform: scale(1.3);
+}
+
+#gostergeSeat>i{
+    font-size:25px ;
+    margin: 10px;
+    margin-top:30px;
+}
+.StatusSeat{
+    font-size: 25px;
+    color: lightgray;
+}
+#emptySeat{
+    color: lightgray;
+}
+
+#selectedSeat{
+    color: yellow;
+}
+#fullSeat{
+    color:rgb(177, 9, 9);
+}
+.ResultText > p > span{
+    color:yellowgreen;
+}
+#screen{
+    margin-top: 20px;
+    width: 500px;
+    height: 160px;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: 2px 4px 8px lightgray;
+}
